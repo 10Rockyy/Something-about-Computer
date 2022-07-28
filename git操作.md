@@ -45,6 +45,7 @@
 
    ```
    git remote add origin git@github.com:Rockyyyyyyyyyy/Something-about-Computer.git
+   #origin会成为远程仓库的名字，可以自行修改
    git push -u origin master
    
    #如果git push之后报错，则先设定分支
@@ -56,6 +57,9 @@
 
    ```
    git remote -v
+   
+   #删除远程仓库（例如删除origin）
+   #git remote rm origin
    ```
-
+   
    
